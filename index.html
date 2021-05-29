@@ -27,8 +27,8 @@
                 <tbody>
                     <tr v-for="event in events">
                         <td>{{ event.date }}</td>
-                        <td>{{event.event}}</td>
-                        <td>{{event.book}}</td>
+                        <td>{{ event.event }}</td>
+                        <td><a target="_blank" :href="event.link">{{ event.book }}</a></td>
                     </tr>
                 </tbody>
             </table>
