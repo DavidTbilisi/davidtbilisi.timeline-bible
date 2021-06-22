@@ -1,0 +1,87 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    text-decoration: none;
+}
+
+p, h1, h2, h3, td, th, a{
+    font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+    color:white;
+}
+a:hover{
+    color:white;
+}
+th {
+    font-family: "ArchyEDT-Bold", sans-serif;
+    color:white !important;
+}
+$color: #176a7c;
+$color1: rgb(78, 195, 221);
+$deg: 0deg;
+nav{
+    width:100%;
+    display: block;
+    position: fixed;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+    ul{
+        background:$color;
+        li a{
+            display: inline-block;
+            padding:25px;
+            color:white !important;
+            font-weight: bold;
+        }
+    }
+
+}
+
+body{
+    background: rgb(175, 231, 205);
+    background: linear-gradient(180deg, lighten($color,2% )0%, rgb(148, 142, 108) 100%);
+}

@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, D:/davidtbilisi.timeline-bible/src/style.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, D:/davidtbilisi.timeline-bible/src/style.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, D:/davidtbilisi.timeline-bible/src/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, D:/davidtbilisi.timeline-bible/src/style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, D:/davidtbilisi.timeline-bible/src/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, D:/davidtbilisi.timeline-bible/src/style.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, D:/davidtbilisi.timeline-bible/src/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 49, D:/davidtbilisi.timeline-bible/src/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 53, D:/davidtbilisi.timeline-bible/src/style.scss */
+p, h1, h2, h3, td, th, a {
+  font-family: "BPG ExtraSquare Mtavruli", sans-serif;
+  color: white;
+}
+
+/* line 57, D:/davidtbilisi.timeline-bible/src/style.scss */
+a:hover {
+  color: white;
+}
+
+/* line 60, D:/davidtbilisi.timeline-bible/src/style.scss */
+th {
+  font-family: "ArchyEDT-Bold", sans-serif;
+  color: white !important;
+}
+
+/* line 67, D:/davidtbilisi.timeline-bible/src/style.scss */
+nav {
+  width: 100%;
+  display: block;
+  position: fixed;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.377);
+}
+
+/* line 72, D:/davidtbilisi.timeline-bible/src/style.scss */
+nav ul {
+  background: #176a7c;
+}
+
+/* line 74, D:/davidtbilisi.timeline-bible/src/style.scss */
+nav ul li a {
+  display: inline-block;
+  padding: 25px;
+  color: white !important;
+  font-weight: bold;
+}
+
+/* line 84, D:/davidtbilisi.timeline-bible/src/style.scss */
+body {
+  background: #afe7cd;
+  background: linear-gradient(180deg, #197185 0%, #948e6c 100%);
+}
+
+/*# sourceMappingURL=style.css.map */
